@@ -1,6 +1,9 @@
 # CalorieTrack AI
 
-A mobile-responsive AI-assisted calorie tracking web app built with React, Vite, Tailwind CSS, and shadcn-inspired components. The experience includes a guided onboarding flow, real-time dashboard, and AI photo meal logging simulation that keeps data in React state only.
+A mobile-responsive AI-assisted calorie tracking web app built with React, Vite, Tailwind CSS, and shadcn-inspired components.
+
+The experience includes a guided onboarding flow, real-time dashboard, and AI photo meal logging simulation that keeps
+data entirely in React state (no local storage).
 
 ## Getting started
 
@@ -22,7 +25,7 @@ A mobile-responsive AI-assisted calorie tracking web app built with React, Vite,
    ```
 
 ## Features
-- **Onboarding:** 4-step guided setup to capture goals, body metrics, activity level, and personalized calorie/macro targets using Mifflin-St Jeor plus goal and activity adjustments.
+- **Onboarding:** Guided setup to capture goals, body metrics, activity level, and personalized calorie/macro targets using Mifflin-St Jeor plus goal and activity adjustments.
 - **Dashboard:** Daily calorie circle and macro progress bars with color-coded status, daily targets summary, and meal history with edit/delete controls.
 - **AI Meal Logging:** Upload or "capture" a meal photo to simulate AI analysis with random realistic macros, editable before saving. Meals update dashboard totals immediately.
 - **Design:** Mobile-first, modern health aesthetic using primary green (#10b981), smooth hover/transition states, and shadcn-inspired UI primitives.
